@@ -1,0 +1,19 @@
+changes made in Hadoop 2.x 
+
+* If we compared with hadoop 1.x ,In single point failure some changes has been done and decentralize JobTraker power to data nodes.
+* YARN represents  for "Yet Another Source Negotiator".
+* cluster utilization used in YARN effectively.
+* In hadoop 2.x this one is the one of the most powerful technology.
+* To ease the JobTraker problems the features Unlike 1.x,JobTraker,resource manager and job scheduling/monitoring done(Application Master)separate daemons.
+* Map reduce slots can be  changed from static to dynamic
+* node limitation, job tracker bottleneck has been rectified(4000 to unlimited).
+* The another advantage is that it allows other application to integrate with HDFS.\
+
+MapReduce 1 and MapReduce 2 / Yarn diffe
+
+*In mapreduce 1,hadoop centralized all tasks to the JobTraker.It resourses are allocated and scheduled the jobs across the cluster.,
+*To ease the work pressure on the JobTracker it is decentralised.
+*Resource Manager responsibility allocate resources to the particular nodes and node manager schedule the jobs on the application master.
+*YARN allows excecution parallely and it manages the application manager and job excecution.
+*This approach can ease many JobTraker problems and scale up ability has been improved because of this method and job performance is get optimized.
+*It can also allows for multiple applications creation to scale up on the distributed environment.
